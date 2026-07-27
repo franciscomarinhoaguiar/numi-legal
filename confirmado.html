@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email confirmado — Numi</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #F2F4F3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: #FFFFFF;
+    border-radius: 20px;
+    max-width: 420px;
+    width: 100%;
+    padding: 40px 32px;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  }
+  .icon-circle {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-color: #E8F5E9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px auto;
+  }
+  .icon-circle svg { width: 36px; height: 36px; }
+  h1 {
+    font-size: 22px;
+    color: #1B1F1C;
+    margin-bottom: 12px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 15px;
+    color: #4A524C;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 32px;
+    color: #8A928C;
+    font-size: 13px;
+  }
+  .brand strong {
+    color: #2E7D32;
+    font-weight: 700;
+  }
+  .hint {
+    background-color: #F2F4F3;
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-size: 13px;
+    color: #4A524C;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon-circle">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 6L9 17L4 12" stroke="#2E7D32" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <h1>Email confirmado!</h1>
+    <p>Sua conta no Numi está pronta. Pode voltar ao app e começar a economizar.</p>
+    <p class="hint">Feche esta aba e abra o Numi no seu celular para fazer login.</p>
+    <div class="brand">
+      <span>Confirmado por</span> <strong>Numi</strong>
+    </div>
+  </div>
+</body>
+</html>
