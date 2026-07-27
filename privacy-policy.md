@@ -10,7 +10,7 @@ Ao criar uma conta e usar o Numi, você concorda com as práticas descritas nest
 
 ## 1. Quem somos
 
-O Numi é desenvolvido e mantido por **[NOME COMPLETO DO DESENVOLVEDOR]**, pessoa física, atuando como Controlador dos dados pessoais tratados por meio do aplicativo.
+O Numi é desenvolvido e mantido por **Francisco de Assis Marinho Aguiar**, pessoa física, atuando como Controlador dos dados pessoais tratados por meio do aplicativo.
 
 **Contato:** francisco.marinho.aguiar@gmail.com
 
